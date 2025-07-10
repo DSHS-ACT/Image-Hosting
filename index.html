@@ -13,6 +13,13 @@
         width: 100%;
         background: #fff;
       }
+      body {
+        width: 100vw;
+        height: 100vh;
+        min-height: 100vh;
+        min-width: 100vw;
+        overflow: hidden;
+      }
       .pdf-viewer {
         width: 100vw;
         height: 100vh;
@@ -22,6 +29,9 @@
     </style>
   </head>
   <body>
-    <iframe src="assets/img.pdf" class="pdf-viewer"></iframe>
+    <iframe
+      src="pdfjs/web/viewer.html?file=../../assets/img.pdf"
+      class="pdf-viewer"
+    ></iframe>
   </body>
 </html>
